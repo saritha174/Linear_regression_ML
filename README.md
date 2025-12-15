@@ -1,4 +1,5 @@
 📌 What is Linear Regression?
+
 Linear Regression is a supervised machine learning algorithm used to predict a continuous output based on one or more input variables.
 
 Example:
