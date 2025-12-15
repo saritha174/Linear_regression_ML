@@ -22,6 +22,7 @@ b = intercept (value of y when x = 0)
 
 📌 Mathematical Intuition Behind Linear Regression
 The goal is to find the best values of m and b such that the line fits the data points as closely as possible.
+
 ⭐ Step 1 — Prediction
 For any weight x, predicted height:
 y^ = mx + b
@@ -48,6 +49,7 @@ Think of it like:
 Update rules:
 𝑚 := 𝑚 −𝛼 ∂𝐽/∂𝑚
 b := b-𝛼 ∂b/∂J
+
 Where:
 α = learning rate (step size)
 
@@ -119,6 +121,9 @@ The model is trained by minimizing the Mean Squared Error using optimization tec
 We evaluate performance using MSE, RMSE, MAE, and R² score.
 Linear Regression works well when the relationship is roughly linear, there are no major outliers, and variance is stable. It is simple, interpretable, and widely used as a baseline model.”
 
+
+-------------------------------------------------------------------------
+
 📌 Linear Regression: Predict Height from Weight
 This project builds a linear regression model that predicts a person's height based on their weight.
 
@@ -138,7 +143,9 @@ Joblib
 
 🚀 How to Run
 pip install -r requirements.txt
+
 python train.py
+
 python app.py
 
 📊 Output
